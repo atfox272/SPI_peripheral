@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jan  4 15:35:29 2024
+# Process ID: 5376
+# Current directory: L:/Projects/peripheral_spi/peripheral_spi.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source L:/Projects/peripheral_spi/peripheral_spi.sim/sim_1/behav/xsim/xsim.dir/spi_peripheral_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: L:/Projects/peripheral_spi/peripheral_spi.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: L:/Projects/peripheral_spi/peripheral_spi.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source L:/Projects/peripheral_spi/peripheral_spi.sim/sim_1/behav/xsim/xsim.dir/spi_peripheral_tb_behav/webtalk/xsim_webtalk.tcl -notrace

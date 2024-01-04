@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+L:/Projects/peripheral_spi/peripheral_spi.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+L:/Projects/peripheral_spi/peripheral_spi.srcs/sim_1/new/spi_peripheral_tb.sv,1704364991,systemVerilog,,,,spi_peripheral_tb,,uvm,../../../../peripheral_spi.srcs/sources_1/new,,,,,
+L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v,1700257997,verilog,,,,edgedet,,uvm,../../../../peripheral_spi.srcs/sources_1/new,,,,,
+L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/sync_fifo.sv,1704265902,systemVerilog,,L:/Projects/peripheral_spi/peripheral_spi.srcs/sim_1/new/spi_peripheral_tb.sv,,sync_fifo,,uvm,../../../../peripheral_spi.srcs/sources_1/new,,,,,
+L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_controller.sv,1704364527,systemVerilog,,L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_peripheral.sv,L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_hardware.vh,spi_controller,,uvm,../../../../peripheral_spi.srcs/sources_1/new,,,,,
+L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_hardware.vh,1704360643,verilog,,,,,,,,,,,,
+L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_peripheral.sv,1704361092,systemVerilog,,L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/sync_fifo.sv,L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_hardware.vh,spi_peripheral,,uvm,../../../../peripheral_spi.srcs/sources_1/new,,,,,

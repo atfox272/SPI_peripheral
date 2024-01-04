@@ -1,0 +1,30 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: L:/Application/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto bdec013430534da0b0ed7df59317ce8a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot spi_peripheral_tb_behav xil_defaultlib.spi_peripheral_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3705] select index 7 into 'DATA_SIZE_TABLE' is out of bounds [L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_controller.sv:121]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v" Line 1. Module edgedet doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v" Line 1. Module edgedet doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v" Line 1. Module edgedet doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v" Line 1. Module edgedet doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_controller.sv" Line 2. Module spi_controller(DATA_SIZE_TABLE='{5,6,7,8},PRESCALER_TABLE='{10,20,50,250,1250,6250,31250,62500}) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v" Line 1. Module edgedet doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v" Line 1. Module edgedet doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v" Line 1. Module edgedet doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/imports/new/edgedet.v" Line 1. Module edgedet doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_controller.sv" Line 2. Module spi_controller(DATA_SIZE_TABLE='{5,6,7,8},PRESCALER_TABLE='{10,20,50,250,1250,6250,31250,62500}) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.edgedet
+Compiling module xil_defaultlib.sync_fifo_default
+Compiling module xil_defaultlib.spi_controller(DATA_SIZE_TABLE='...
+WARNING: [VRFC 10-3460] index is always out of bounds for array 'DATA_SIZE_TABLE' [L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_controller.sv:121]
+WARNING: [VRFC 10-3456] index 7 is out of range [0:3] for 'DATA_SIZE_TABLE' [L:/Projects/peripheral_spi/peripheral_spi.srcs/sources_1/new/spi_controller.sv:121]
+Compiling module xil_defaultlib.spi_peripheral_default
+Compiling module xil_defaultlib.spi_peripheral_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot spi_peripheral_tb_behav

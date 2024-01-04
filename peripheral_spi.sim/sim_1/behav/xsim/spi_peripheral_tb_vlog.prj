@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../peripheral_spi.srcs/sources_1/new" \
+"../../../../peripheral_spi.srcs/sources_1/imports/new/edgedet.v" \
+
+sv xil_defaultlib  --include "../../../../peripheral_spi.srcs/sources_1/new" \
+"../../../../peripheral_spi.srcs/sources_1/new/spi_controller.sv" \
+"../../../../peripheral_spi.srcs/sources_1/new/spi_peripheral.sv" \
+"../../../../peripheral_spi.srcs/sources_1/imports/new/sync_fifo.sv" \
+"../../../../peripheral_spi.srcs/sim_1/new/spi_peripheral_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

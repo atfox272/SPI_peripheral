@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spi_peripheral_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="spi_peripheral_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="613400fs"></ZoomStartTime>
+      <ZoomEndTime time="790801fs"></ZoomEndTime>
+      <Cursor1Time time="716000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/spi_peripheral_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/MOSI" type="logic">
+      <obj_property name="ElementShortName">MOSI</obj_property>
+      <obj_property name="ObjectShortName">MOSI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/MISO" type="logic">
+      <obj_property name="ElementShortName">MISO</obj_property>
+      <obj_property name="ObjectShortName">MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/SS" type="logic">
+      <obj_property name="ElementShortName">SS</obj_property>
+      <obj_property name="ObjectShortName">SS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/rd_req" type="logic">
+      <obj_property name="ElementShortName">rd_req</obj_property>
+      <obj_property name="ObjectShortName">rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/wr_req" type="logic">
+      <obj_property name="ElementShortName">wr_req</obj_property>
+      <obj_property name="ObjectShortName">wr_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/rd_available" type="logic">
+      <obj_property name="ElementShortName">rd_available</obj_property>
+      <obj_property name="ObjectShortName">rd_available</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/wr_available" type="logic">
+      <obj_property name="ElementShortName">wr_available</obj_property>
+      <obj_property name="ObjectShortName">wr_available</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/config_register" type="array">
+      <obj_property name="ElementShortName">config_register[7:0]</obj_property>
+      <obj_property name="ObjectShortName">config_register[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/spi_peripheral/trans_buffer/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[0:31][7:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[0:31][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/spi_peripheral/spi_controller/rd_req_trans_fifo" type="logic">
+      <obj_property name="ElementShortName">rd_req_trans_fifo</obj_property>
+      <obj_property name="ObjectShortName">rd_req_trans_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/spi_peripheral/spi_controller/spi_state" type="array">
+      <obj_property name="ElementShortName">spi_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/spi_peripheral/spi_controller/data_counter" type="array">
+      <obj_property name="ElementShortName">data_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">data_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/slave_buffer" type="array">
+      <obj_property name="ElementShortName">slave_buffer[7:0]</obj_property>
+      <obj_property name="ObjectShortName">slave_buffer[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/slave_rcv_flag" type="logic">
+      <obj_property name="ElementShortName">slave_rcv_flag</obj_property>
+      <obj_property name="ObjectShortName">slave_rcv_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/spi_peripheral/rcv_buffer/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[0:31][7:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[0:31][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_peripheral_tb/counter" type="array">
+      <obj_property name="ElementShortName">counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[2:0]</obj_property>
+   </wvobject>
+</wave_config>
